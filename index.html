@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Develop/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+     <!-- Timeblocks go here  -->
+      <section class = " row padding-top-40px ">
+        <div class = " border-top border-dark col-2 text-right">9AM</div>
+        <input  id = "9" class = " hour border-left border-right border-top border-dark  col-8 "> </input>
+        <button id = btn9 type="button" class=" btn btn-secondary float-right col-2 saveBtn"><i class="fas fa-save"></i></button>
+      </section>
+      <section class = " row padding-top-40px ">
+        <div class = "border-top border-dark col-2 text-right">10AM</div>
+        <input  id = "10" class = " hour border-left border-right border-top border-dark  col-8 "> </input>
+        <button id = "btn10" type="button" class=" btn btn-secondary float-right col-2 saveBtn"><i class="fas fa-save"></i></button>
+      </section>
+      <section class = " row padding-top-40px ">
+        <div class = "border-top border-dark col-2 text-right">11AM</div>
+        <input id = "11" class = " hour border-left border-right border-top border-dark  col-8 "> </input>
+        <button type="button" class=" btn btn-secondary float-right col-2 saveBtn"><i class="fas fa-save"></i></button>
+      </section>
+      <section class = " row padding-top-40px ">
+        <div class = "border-top border-dark col-2 text-right">12PM</div>
+        <input id = "12" class = " hour border-left border-right border-top border-dark  col-8 "> </input>
+        <button type="button" class=" btn btn-secondary float-right col-2 saveBtn"><i class="fas fa-save"></i></button>
+      </section>
+      <section class = " row padding-top-40px ">
+        <div  class = "border-top border-dark col-2 text-right">1PM</div>
+        <input id = "13" class = " hour border-left border-right border-top border-dark  col-8 "> </input>
+        <button type="button" class=" btn btn-secondary float-right col-2 saveBtn"><i class="fas fa-save"></i></button>
+      </section>
+      <section class = " row padding-top-40px ">
+        <div class = "border-top border-dark col-2 text-right">2PM</div>
+        <input  id = "14" class = " hour border-left border-right border-top border-dark  col-8 "> </input>
+        <button type="button" class=" btn btn-secondary float-right col-2 saveBtn"><i class="fas fa-save"></i></button>
+      </section>
+      <section class = " row padding-top-40px ">
+        <div class = "border-top border-dark col-2 text-right">3PM</div>
+        <input id = "15" class = " hour border-left border-right border-top border-dark  col-8 "> </input>
+        <button type="button" class=" btn btn-secondary float-right col-2 saveBtn"><i class="fas fa-save"></i></button>
+      </section>
+      <section class = " row padding-top-40px ">
+        <div class = "border-top border-dark col-2 text-right">4PM</div>
+        <input id = "16" class = " hour border-left border-right border-top border-dark  col-8 "> </input>
+        <button type="button" class=" btn btn-secondary float-right col-2 saveBtn"><i class="fas fa-save"></i></button>
+      </section>
+      </section>
+      <section class = " row padding-top-40px ">
+      <div class = "border-top border-dark col-2 text-right">5PM</div>
+      <input id = "17" class = " hour border-left border-right border-top border-dark  col-8 "> </input>
+      <button type="button" class=" btn btn-secondary float-right col-2 saveBtn"><i class="fas fa-save"></i></button>
+      </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Develop/script.js"></script>
+  </body>
+</html>
